@@ -401,9 +401,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	function save(namespaces) {
 		try {
 			if (namespaces) {
-				exports.storage.setItem('debug', namespaces);
+				exports.storage.setItem('customdebugforsocketioclient2', namespaces);
 			} else {
-				exports.storage.removeItem('debug');
+				exports.storage.removeItem('customdebugforsocketioclient2');
 			}
 		} catch (error) {
 			// Swallow
@@ -420,7 +420,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	function load() {
 		var r = void 0;
 		try {
-			r = exports.storage.getItem('debug');
+			r = exports.storage.getItem('customdebugforsocketioclient2');
 		} catch (error) {}
 		// Swallow
 		// XXX (@Qix-) should we be logging these?
@@ -1657,7 +1657,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	function save(namespaces) {
 	  try {
 	    if (null == namespaces) {
-	      exports.storage.removeItem('debug');
+	      exports.storage.removeItem('customdebugforsocketioclient2');
 	    } else {
 	      exports.storage.debug = namespaces;
 	    }
@@ -3057,7 +3057,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	var transports = __webpack_require__(18);
 	var Emitter = __webpack_require__(11);
-	var debug = __webpack_require__(3)('engine.io-client:socket');
+	var debug = __webpack_require__(3)('custom-engine.io-client-v3.4.4:socket');
 	var index = __webpack_require__(38);
 	var parser = __webpack_require__(24);
 	var parseuri = __webpack_require__(2);
@@ -3876,7 +3876,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var xscheme = opts.xscheme;
 	
 	  // XDomainRequest has a flow of not sending cookie, therefore it should be disabled as a default.
-	  // https://github.com/Automattic/engine.io-client/pull/217
+	  // https://github.com/Automattic/custom-engine.io-client-v3.4.4/pull/217
 	  var enablesXDR = opts.enablesXDR;
 	
 	  // XMLHttpRequest can be disabled on IE
@@ -3940,7 +3940,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	var Polling = __webpack_require__(22);
 	var Emitter = __webpack_require__(11);
 	var inherit = __webpack_require__(33);
-	var debug = __webpack_require__(3)('engine.io-client:polling-xhr');
+	var debug = __webpack_require__(3)('custom-engine.io-client-v3.4.4:polling-xhr');
 	
 	/**
 	 * Module exports.
@@ -4362,7 +4362,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	var parser = __webpack_require__(24);
 	var inherit = __webpack_require__(33);
 	var yeast = __webpack_require__(34);
-	var debug = __webpack_require__(3)('engine.io-client:polling');
+	var debug = __webpack_require__(3)('custom-engine.io-client-v3.4.4:polling');
 	
 	/**
 	 * Module exports.
@@ -5763,8 +5763,8 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ (function(module, exports) {
 
 	/*
-	 * base64-arraybuffer
-	 * https://github.com/niklasvh/base64-arraybuffer
+	 * custom-base64-arraybuffer-v0.1.5
+	 * https://github.com/niklasvh/custom-base64-arraybuffer-v0.1.5
 	 *
 	 * Copyright (c) 2012 Niklas von Hertzen
 	 * Licensed under the MIT license.
@@ -6325,7 +6325,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	var parseqs = __webpack_require__(32);
 	var inherit = __webpack_require__(33);
 	var yeast = __webpack_require__(34);
-	var debug = __webpack_require__(3)('engine.io-client:websocket');
+	var debug = __webpack_require__(3)('custom-engine.io-client-v3.4.4:websocket');
 	
 	var BrowserWebSocket, NodeWebSocket;
 	

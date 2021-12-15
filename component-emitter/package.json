@@ -1,0 +1,27 @@
+{
+  "name": "custom-component-emitter-v1.3.0",
+  "description": "Event emitter",
+  "version": "0.0.1",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+  "component": {
+    "scripts": {
+      "emitter/index.js": "index.js"
+    }
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/component/emitter.git"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "files": [
+    "index.js",
+    "LICENSE"
+  ]
+}

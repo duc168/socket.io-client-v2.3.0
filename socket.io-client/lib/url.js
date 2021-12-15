@@ -4,7 +4,7 @@
  */
 
 var parseuri = require('parseuri');
-var debug = require('debug')('socket.io-client:url');
+var debug = require('customdebugforsocketioclient2')('socket.io-client:url');
 
 /**
  * Module exports.

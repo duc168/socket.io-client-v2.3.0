@@ -1665,7 +1665,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	var transports = __webpack_require__(12);
 	var Emitter = __webpack_require__(5);
-	var debug = __webpack_require__(3)('engine.io-client:socket');
+	var debug = __webpack_require__(3)('custom-engine.io-client-v3.4.4:socket');
 	var index = __webpack_require__(32);
 	var parser = __webpack_require__(18);
 	var parseuri = __webpack_require__(2);
@@ -2484,7 +2484,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var xscheme = opts.xscheme;
 	
 	  // XDomainRequest has a flow of not sending cookie, therefore it should be disabled as a default.
-	  // https://github.com/Automattic/engine.io-client/pull/217
+	  // https://github.com/Automattic/custom-engine.io-client-v3.4.4/pull/217
 	  var enablesXDR = opts.enablesXDR;
 	
 	  // XMLHttpRequest can be disabled on IE
@@ -2548,7 +2548,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	var Polling = __webpack_require__(16);
 	var Emitter = __webpack_require__(5);
 	var inherit = __webpack_require__(27);
-	var debug = __webpack_require__(3)('engine.io-client:polling-xhr');
+	var debug = __webpack_require__(3)('custom-engine.io-client-v3.4.4:polling-xhr');
 	
 	/**
 	 * Module exports.
@@ -2970,7 +2970,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	var parser = __webpack_require__(18);
 	var inherit = __webpack_require__(27);
 	var yeast = __webpack_require__(28);
-	var debug = __webpack_require__(3)('engine.io-client:polling');
+	var debug = __webpack_require__(3)('custom-engine.io-client-v3.4.4:polling');
 	
 	/**
 	 * Module exports.
@@ -4371,8 +4371,8 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ (function(module, exports) {
 
 	/*
-	 * base64-arraybuffer
-	 * https://github.com/niklasvh/base64-arraybuffer
+	 * custom-base64-arraybuffer-v0.1.5
+	 * https://github.com/niklasvh/custom-base64-arraybuffer-v0.1.5
 	 *
 	 * Copyright (c) 2012 Niklas von Hertzen
 	 * Licensed under the MIT license.
@@ -4933,7 +4933,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	var parseqs = __webpack_require__(26);
 	var inherit = __webpack_require__(27);
 	var yeast = __webpack_require__(28);
-	var debug = __webpack_require__(3)('engine.io-client:websocket');
+	var debug = __webpack_require__(3)('custom-engine.io-client-v3.4.4:websocket');
 	
 	var BrowserWebSocket, NodeWebSocket;
 	

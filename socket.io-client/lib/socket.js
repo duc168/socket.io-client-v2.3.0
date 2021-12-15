@@ -4,11 +4,11 @@
  */
 
 var parser = require('socket.io-parser-v3.3.2');
-var Emitter = require('component-emitter');
+var Emitter = require('custom-component-emitter-v1.3.0');
 var toArray = require('to-array');
 var on = require('./on');
-var bind = require('component-bind');
-var debug = require('debug')('socket.io-client:socket');
+var bind = require('custom-component-bind-v1.0.0');
+var debug = require('customdebugforsocketioclient2')('socket.io-client:socket');
 var parseqs = require('parseqs');
 var hasBin = require('has-binary2');
 

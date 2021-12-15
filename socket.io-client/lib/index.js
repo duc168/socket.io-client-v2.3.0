@@ -6,7 +6,7 @@
 var url = require('./url');
 var parser = require('socket.io-parser-v3.3.2');
 var Manager = require('./manager');
-var debug = require('debug')('socket.io-client');
+var debug = require('customdebugforsocketioclient2')('socket.io-client');
 
 /**
  * Module exports.

@@ -3,15 +3,15 @@
  * Module dependencies.
  */
 
-var eio = require('engine.io-client');
+var eio = require('custom-engine.io-client-v3.4.4');
 var Socket = require('./socket');
-var Emitter = require('component-emitter');
+var Emitter = require('custom-component-emitter-v1.3.0');
 var parser = require('socket.io-parser-v3.3.2');
 var on = require('./on');
-var bind = require('component-bind');
-var debug = require('debug')('socket.io-client:manager');
+var bind = require('custom-component-bind-v1.0.0');
+var debug = require('customdebugforsocketioclient2')('socket.io-client:manager');
 var indexOf = require('indexof');
-var Backoff = require('backo2');
+var Backoff = require('backo2-v1.0.2');
 
 /**
  * IE6+ hasOwnProperty
