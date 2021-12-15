@@ -1,6 +1,6 @@
 {
   "name": "socket.io-client-v2.3.0",
-  "version": "0.0.1",
+  "version": "0.0.6",
   "keywords": [
     "realtime",
     "framework",
@@ -9,7 +9,7 @@
     "events",
     "client"
   ],
-  "main": "./lib/index",
+  "main": "./lib/index.js",
   "files": [
     "lib/",
     "dist/"
