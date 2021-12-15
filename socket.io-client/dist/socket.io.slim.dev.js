@@ -301,7 +301,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * Module dependencies.
 	 */
 	
-	var debug = __webpack_require__(3)('socket.io-parser');
+	var debug = __webpack_require__(3)('socket.io-parser-v3.3.2');
 	var Emitter = __webpack_require__(5);
 	var binary = __webpack_require__(6);
 	var isArray = __webpack_require__(7);
